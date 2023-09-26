@@ -1,0 +1,325 @@
+#rentcar {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-color: #333333;
+  position: absolute;
+  z-index: 1;
+}
+#rentcar .navbar {
+  padding-top: 3%;
+}
+#rentcar .navbar .navright ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  transition: 0.5s;
+}
+#rentcar .navbar .navright ul li a:hover {
+  color: rgba(254, 199, 1, 0.6862745098);
+  transition: 0.5s ease-in-out;
+}
+#rentcar .navbar .navright ul li.more {
+  position: relative;
+}
+#rentcar .navbar .navright ul li.more:hover ul {
+  opacity: 1;
+  visibility: visible;
+  transition: 0.3s ease-in-out;
+}
+#rentcar .navbar .navright ul li.more ul {
+  position: absolute;
+  width: 190px;
+  background-color: whitesmoke;
+  transform: translateY(20px);
+  transition: 0.3s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  top: 36px;
+}
+#rentcar .navbar .navright ul li.more ul li a {
+  text-decoration: none;
+  padding: 10px 10px;
+  display: inline-block;
+  color: grey;
+  transition: 0.5s ease-in-out;
+}
+#rentcar .navbar .navright ul li.more ul li a:hover {
+  color: rgba(254, 199, 1, 0.6509803922);
+  transition: 0.5s ease-in-out;
+}
+#rentcar .navbar .navright ul li.more i {
+  color: #FEC601;
+  padding-left: 5px;
+}
+
+#vehicle {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  padding-top: 3%;
+  z-index: -1;
+}
+#vehicle .container .row {
+  margin-top: 5%;
+}
+#vehicle .container .row .vehicletext {
+  text-align: center;
+}
+#vehicle .container .row .vehicletext h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 1.9px;
+}
+#vehicle .container .row .vehicletext h5 {
+  color: #FEC601;
+  font-size: 13px;
+}
+#vehicle .container .row .toyota {
+  margin-top: 5%;
+}
+#vehicle .container .row .toyota p {
+  color: white;
+  font-size: 13px;
+}
+#vehicle .container .row .toyota h1 {
+  color: #FEC601;
+  font-weight: 700;
+}
+#vehicle .container .row .toyota .red {
+  width: 85px;
+  height: 12px;
+  background-color: #E91E22;
+}
+#vehicle .container .row .toyota h5 {
+  color: white;
+  padding-top: 10px;
+  font-size: 15px;
+}
+#vehicle .container .row .toyota h5 span {
+  font-size: 35px;
+}
+#vehicle .container .row .list ul li {
+  color: white;
+  font-size: 13px;
+}
+#vehicle .container .row .list ul li i {
+  color: #FEC601;
+  border-radius: 100%;
+  padding: 15px;
+  background-color: #333333;
+  font-size: 20px;
+  margin-top: 10px;
+}
+#vehicle .container .row .list ul li span {
+  color: #FEC601;
+}
+#vehicle .container .row .photo {
+  margin-top: 5%;
+}
+#vehicle .container .row .photo img {
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  #rentcar {
+    display: none;
+  }
+  #vehicle {
+    font-family: "Montserrat", sans-serif;
+  }
+  #vehicle .container .row {
+    margin-top: 5%;
+  }
+  #vehicle .container .row .vehicletext {
+    text-align: center;
+  }
+  #vehicle .container .row .vehicletext h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1.9px;
+  }
+  #vehicle .container .row .vehicletext h5 {
+    color: #FEC601;
+    font-size: 13px;
+  }
+  #vehicle .container .row .toyota {
+    margin-top: 5%;
+  }
+  #vehicle .container .row .toyota p {
+    color: white;
+  }
+  #vehicle .container .row .toyota h1 {
+    color: #FEC601;
+    font-weight: 700;
+  }
+  #vehicle .container .row .toyota .red {
+    width: 85px;
+    height: 12px;
+    background-color: #E91E22;
+  }
+  #vehicle .container .row .toyota h5 {
+    color: white;
+    padding-top: 10px;
+    font-size: 15px;
+  }
+  #vehicle .container .row .toyota h5 span {
+    font-size: 35px;
+  }
+  #vehicle .container .row .list ul li {
+    color: white;
+    font-size: 13px;
+  }
+  #vehicle .container .row .list ul li i {
+    color: #FEC601;
+    border-radius: 100%;
+    padding: 15px;
+    background-color: #333333;
+    font-size: 20px;
+  }
+  #vehicle .container .row .list ul li span {
+    color: #FEC601;
+  }
+  #vehicle .container .row .photo {
+    margin-top: 5%;
+  }
+  #vehicle .container .row .photo img {
+    width: 100%;
+  }
+}
+@media (min-width: 577px) and (max-width: 767px) {
+  #rentcar {
+    display: none;
+  }
+  #vehicle {
+    font-family: "Montserrat", sans-serif;
+  }
+  #vehicle .container .row {
+    margin-top: 5%;
+  }
+  #vehicle .container .row .vehicletext {
+    text-align: center;
+  }
+  #vehicle .container .row .vehicletext h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1.9px;
+  }
+  #vehicle .container .row .vehicletext h5 {
+    color: #FEC601;
+    font-size: 13px;
+  }
+  #vehicle .container .row .toyota {
+    margin-top: 5%;
+  }
+  #vehicle .container .row .toyota p {
+    color: white;
+  }
+  #vehicle .container .row .toyota h1 {
+    color: #FEC601;
+    font-weight: 700;
+  }
+  #vehicle .container .row .toyota .red {
+    width: 85px;
+    height: 12px;
+    background-color: #E91E22;
+  }
+  #vehicle .container .row .toyota h5 {
+    color: white;
+    padding-top: 10px;
+    font-size: 15px;
+  }
+  #vehicle .container .row .toyota h5 span {
+    font-size: 35px;
+  }
+  #vehicle .container .row .list ul li {
+    color: white;
+    font-size: 13px;
+  }
+  #vehicle .container .row .list ul li i {
+    color: #FEC601;
+    border-radius: 100%;
+    padding: 15px;
+    background-color: #333333;
+    font-size: 20px;
+  }
+  #vehicle .container .row .list ul li span {
+    color: #FEC601;
+  }
+  #vehicle .container .row .photo {
+    margin-top: 5%;
+  }
+  #vehicle .container .row .photo img {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #rentcar {
+    display: none;
+  }
+  #vehicle {
+    font-family: "Montserrat", sans-serif;
+  }
+  #vehicle .container .row {
+    margin-top: 5%;
+  }
+  #vehicle .container .row .vehicletext {
+    text-align: center;
+  }
+  #vehicle .container .row .vehicletext h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1.9px;
+  }
+  #vehicle .container .row .vehicletext h5 {
+    color: #FEC601;
+    font-size: 13px;
+  }
+  #vehicle .container .row .toyota {
+    margin-top: 5%;
+  }
+  #vehicle .container .row .toyota p {
+    color: white;
+  }
+  #vehicle .container .row .toyota h1 {
+    color: #FEC601;
+    font-weight: 700;
+  }
+  #vehicle .container .row .toyota .red {
+    width: 85px;
+    height: 12px;
+    background-color: #E91E22;
+  }
+  #vehicle .container .row .toyota h5 {
+    color: white;
+    padding-top: 10px;
+    font-size: 15px;
+  }
+  #vehicle .container .row .toyota h5 span {
+    font-size: 35px;
+  }
+  #vehicle .container .row .list ul li {
+    color: white;
+    font-size: 13px;
+  }
+  #vehicle .container .row .list ul li i {
+    color: #FEC601;
+    border-radius: 100%;
+    padding: 15px;
+    background-color: #333333;
+    font-size: 20px;
+  }
+  #vehicle .container .row .list ul li span {
+    color: #FEC601;
+  }
+  #vehicle .container .row .photo {
+    margin-top: 5%;
+  }
+  #vehicle .container .row .photo img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,78 @@
+#food{
+    width: 100%;
+    height: auto;
+    background-image: url(https://foodtruck.splash.wp.themeforest.createit.pl/images/bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    .boxes{
+        
+        .photo1{
+            img{
+                margin-left: 14rem;
+                margin-top: 5rem;
+            }
+            h5{
+                text-decoration: none;
+                display: inline-block;
+                padding: 15px 80px;
+                background-color: #9D2824;
+                color: #C87C40;
+                border: 1px solid grey;
+                border-radius: 10px;
+                margin-left: 48%;
+                margin-top: 27px;
+            }
+            h6{
+                text-decoration: none;
+                color: white;
+                margin-left: 60%;
+            }
+            
+        }
+            
+        
+    }
+    .trucker{
+        margin-top: 5rem;
+        margin-left: 5rem;
+        a{
+            border: 1px solid grey;
+            margin-top: 20px;
+            padding: 15px 28px;
+            display: inline-block;
+            text-decoration: none;
+            background-color: #9D2824 ;
+            color: #C89B7A;
+            border-radius: 1px solid grey;
+            border-radius: 10px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+    }
+}
+
+#cars{
+    width: 100%;
+    height: auto;
+    background-color: #770B0B;
+    .boxs{
+        width: 100%;
+        margin-right: 90px;
+        text-align: center;
+        a{
+            width: 50%;
+        }
+        h1{
+            color: white;
+            
+        }
+        p{
+            color: white;
+        }
+        img{
+            width: 100%;
+            padding-left: 5px;
+        }
+        
+    }
+}

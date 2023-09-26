@@ -1,0 +1,645 @@
+#burger {
+  width: 100%;
+  height: 100vh;
+  background: url(https://templates.framework-y.com/gourmet/images/hd-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#burger .burgertext {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 38%;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  margin: 15% 7%;
+}
+#burger .burgertext h1 {
+  color: #FAFAFA;
+  font-size: 50px;
+  font-weight: 600;
+}
+#burger .burgertext h5 {
+  color: #FAFAFA;
+  font-size: 17px;
+  padding-top: 10px;
+}
+#burger .burgertext a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid #FAFAFA;
+  padding: 5px 20px;
+  display: inline-block;
+  margin-top: 25px;
+  position: relative;
+  z-index: 1;
+}
+#burger .burgertext a:hover {
+  color: black;
+}
+#burger .burgertext a:hover::before {
+  height: 100%;
+  transition: 0.5s ease-in-out;
+}
+#burger .burgertext a::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background-color: white;
+  position: absolute;
+  transition: 0.5s ease-in-out;
+  z-index: -1;
+}
+
+#menu {
+  position: relative;
+}
+#menu::before {
+  content: "";
+  background-color: grey;
+  width: 80%;
+  height: 1px;
+  position: absolute;
+  left: 10%;
+  top: 100%;
+}
+#menu .boxes {
+  margin-top: 20px;
+  width: 25%;
+  transform: scale(1);
+  transition: 0.5s ease-in-out;
+}
+#menu .boxes:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+#menu .boxes img {
+  width: 100%;
+}
+#menu .boxes .phototext {
+  width: 80%;
+  margin: auto;
+}
+#menu .boxes .phototext a {
+  text-decoration: none;
+}
+#menu .boxes .phototext a h1 {
+  color: grey;
+  font-size: 20px;
+  padding-top: 30px;
+}
+#menu .boxes .phototext h5 {
+  color: grey;
+  font-size: 15px;
+  padding-top: 20px;
+  font-weight: 500;
+  padding-bottom: 60px;
+}
+
+#week .boxes .box1 .photo {
+  width: 25%;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+#week .boxes .box1 .phototext {
+  width: 70%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#week .boxes .box1 .phototext h1 {
+  font-size: 20px;
+  color: #484848;
+  padding-top: 10px;
+}
+#week .boxes .box1 .phototext h2 {
+  font-size: 15px;
+  color: grey;
+  padding-top: 10px;
+  font-weight: 500;
+}
+#week .box2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 20%;
+}
+#week .box2 p {
+  color: grey;
+  font-style: italic;
+  font-size: 15px;
+}
+#week .box2 h1 {
+  font-size: 40px;
+  color: #484848;
+}
+#week .box2 a {
+  text-decoration: none;
+  display: inline-block;
+  color: #484848;
+  border: 1px solid #484848;
+  padding: 5px 10px;
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+  transition: 0.5s ease-in-out;
+  z-index: 1;
+}
+#week .box2 a:hover {
+  color: white;
+}
+#week .box2 a:hover::before {
+  height: 100%;
+  transition: 0.5s ease-in-out;
+}
+#week .box2 a::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #484848;
+  position: absolute;
+  z-index: -1;
+}
+
+#festival {
+  margin-top: 50px;
+  width: 100%;
+  height: 100vh;
+  background: url(https://templates.framework-y.com/gourmet/images/bg-18.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#festival .container {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#festival .container h4 {
+  margin-top: 10%;
+  color: grey;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+}
+#festival .container h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+#festival .container .boxes {
+  margin-top: 40px;
+  width: 100%;
+}
+#festival .container .boxes .phototext {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border: 1px solid pink;
+  background-color: white;
+  width: 100%;
+  margin: auto;
+  padding: 30px;
+}
+#festival .container .boxes .phototext h1 {
+  margin-top: 10px;
+  color: grey;
+  font-size: 20px;
+}
+#festival .container .boxes .phototext p {
+  color: grey;
+  font-size: 15px;
+}
+#festival .container .boxes .phototext a {
+  text-decoration: none;
+  color: #484848;
+  font-size: 15px;
+}
+#festival .container .boxes .boxes1 {
+  width: 33%;
+}
+#festival .container .boxes .boxes1 .photo {
+  position: relative;
+}
+#festival .container .boxes .boxes1 .photo::before {
+  content: "02 APR,18";
+  width: 80px;
+  height: 80px;
+  background-color: #484848;
+  left: 70%;
+  top: 80%;
+  border: 3px solid white;
+  position: absolute;
+  border-radius: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#festival .container .boxes .boxes1 .photo img {
+  width: 100%;
+}
+#festival .container .boxes .boxes2 {
+  width: 33%;
+  position: relative;
+}
+#festival .container .boxes .boxes2::before {
+  content: "21 MAY,18";
+  width: 75px;
+  height: 75px;
+  background-color: #484848;
+  top: 38%;
+  left: 70%;
+  position: absolute;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 18px;
+  border-radius: 100%;
+  border: 3px solid white;
+}
+#festival .container .boxes .boxes2 .photo img {
+  width: 100%;
+}
+#festival .container .boxes .boxes3 {
+  width: 33%;
+  position: relative;
+}
+#festival .container .boxes .boxes3::before {
+  content: "24 JUN,18";
+  top: 38%;
+  left: 70%;
+  border: 3px solid white;
+  background-color: #484848;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  border-radius: 100%;
+}
+#festival .container .boxes .boxes3 .photo img {
+  width: 100%;
+}
+
+#deluxe .boxes .box1 {
+  width: 33%;
+}
+#deluxe .boxes .box1 img {
+  width: 100%;
+}
+#deluxe .boxes .box2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 33%;
+}
+#deluxe .boxes .box2 .progress-bar {
+  color: black;
+  background-color: grey;
+}
+#deluxe .boxes .box2 p {
+  color: grey;
+  font-style: italic;
+}
+#deluxe .boxes .box2 h1 {
+  font-size: 38px;
+  color: #484848;
+}
+#deluxe .boxes .box2 h2 {
+  font-size: 13px;
+  color: #484848;
+}
+#deluxe .boxes .box2 h3 {
+  color: #484848;
+  font-size: 13px;
+}
+#deluxe .boxes .box3 p {
+  color: red;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#deluxe .boxes .box4 {
+  width: 33%;
+}
+#deluxe .boxes .box4 .progress-bar {
+  color: black;
+  background-color: grey;
+}
+#deluxe .boxes .box4 p {
+  color: grey;
+  font-size: 15px;
+  font-style: italic;
+}
+#deluxe .boxes .box4 h1 {
+  color: #484848;
+  font-size: 40px;
+}
+#deluxe .boxes .box4 h2 {
+  color: #484848;
+  font-size: 13px;
+  padding-top: 10px;
+}
+#deluxe .boxes .box4 h3 {
+  color: #484848;
+  font-size: 13px;
+  padding-top: 10px;
+}
+#deluxe .boxes .box5 {
+  width: 33%;
+  color: grey;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#deluxe .boxes h1 {
+  color: #484848;
+  font-size: 40px;
+}
+#deluxe .boxes .box6 {
+  width: 33%;
+}
+#deluxe .boxes .box6 img {
+  width: 100%;
+}
+
+#all .boxes {
+  margin-left: 5px;
+  margin-top: 10px;
+}
+#all .boxes .overlay {
+  width: 70%;
+  margin: auto;
+  top: 35%;
+  left: 7%;
+  position: absolute;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#all .boxes .overlay p {
+  color: rgb(68, 62, 62);
+  font-size: 18px;
+}
+#all .boxes .overlay h1 {
+  color: white;
+  font-size: 25px;
+}
+#all .boxes .overlay h4 {
+  color: white;
+  font-size: 15px;
+}
+#all .boxes .box1 {
+  width: 25%;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  margin-top: 10px;
+  position: relative;
+}
+#all .boxes .box1:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+#all .boxes .box1 img {
+  width: 100%;
+  transform: scale(1);
+  vertical-align: middle;
+}
+#all .boxes .box2 {
+  width: 25%;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  position: relative;
+}
+#all .boxes .box2:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+#all .boxes .box2 img {
+  width: 100%;
+  transform: scale(1);
+  vertical-align: middle;
+}
+#all .boxes .box3 {
+  width: 25%;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  position: relative;
+}
+#all .boxes .box3:hover {
+  transition: 0.5s ease-in-out;
+  transform: scale(1.1);
+}
+#all .boxes .box3 img {
+  width: 100%;
+  transform: scale(1);
+  vertical-align: middle;
+}
+#all .boxes .box4 {
+  width: 25%;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  position: relative;
+}
+#all .boxes .box4:hover {
+  transition: 0.5s ease-in-out;
+  transform: scale(1.1);
+}
+#all .boxes .box4 img {
+  width: 100%;
+  transform: scale(1);
+  vertical-align: middle;
+}
+#all .boxes .box5 {
+  overflow: hidden;
+  width: 25%;
+  transition: 0.5s ease-in-out;
+  position: relative;
+}
+#all .boxes .box5:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+#all .boxes .box5 img {
+  width: 100%;
+  transform: scale(1);
+  vertical-align: middle;
+}
+#all .boxes .box6 {
+  overflow: hidden;
+  width: 25%;
+  transition: 0.5s ease-in-out;
+  position: relative;
+}
+#all .boxes .box6:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+#all .boxes .box6 img {
+  width: 100%;
+  transform: scale(1);
+  vertical-align: middle;
+}
+#all .boxes .box7 {
+  overflow: hidden;
+  width: 25%;
+  transition: 0.5s ease-in-out;
+  position: relative;
+}
+#all .boxes .box7:hover {
+  transition: 0.5s ease-in-out;
+  transform: scale(1.1);
+}
+#all .boxes .box7 img {
+  width: 100%;
+  transform: scale(1);
+  vertical-align: middle;
+}
+#all .boxes .box8 {
+  overflow: hidden;
+  width: 25%;
+  transition: 0.5s ease-in-out;
+  position: relative;
+}
+#all .boxes .box8:hover {
+  transition: 0.5s ease-in-out;
+  transform: scale(1.1);
+}
+#all .boxes .box8 img {
+  width: 100%;
+  transform: scale(1);
+  vertical-align: middle;
+}
+
+#themenu {
+  width: 100%;
+  height: 100vh;
+  background: url(https://templates.framework-y.com/gourmet/images/bg-19.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#themenu .menutext {
+  text-align: center;
+}
+#themenu .menutext p {
+  color: grey;
+  font-style: italic;
+  font-size: 15px;
+}
+#themenu .menutext h1 {
+  color: #484848;
+  font: 25px;
+}
+#themenu .boxes {
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#themenu .boxes p {
+  color: grey;
+  font-size: 15px;
+}
+#themenu .boxes h4 {
+  color: grey;
+  font-size: 15px;
+}
+#themenu .boxes .box1 {
+  width: 33%;
+}
+#themenu .boxes .box2 {
+  width: 33%;
+}
+#themenu .boxes .box3 {
+  width: 33%;
+}
+
+#photos .boxes .text1 {
+  width: 33%;
+  height: 50%;
+  padding-top: 10px;
+}
+#photos .boxes .text1 p {
+  color: grey;
+  background-color: whitesmoke;
+  padding: 15px 15px;
+}
+#photos .boxes .text1 .photo1 .photobox {
+  margin: auto;
+  padding-left: 40px;
+}
+#photos .boxes .text1 .photo1 .photobox img {
+  width: 100%;
+  border-radius: 100%;
+}
+#photos .boxes .text1 .photo1 .photobox h4 {
+  color: #484848;
+  font-size: 18px;
+}
+#photos .boxes .text1 .photo1 .photobox h5 {
+  color: grey;
+  font-size: 15px;
+}
+
+#photoboxs .boxes {
+  width: 100%;
+  margin-left: 10px;
+}
+#photoboxs .boxes .box {
+  width: 16%;
+  position: relative;
+}
+#photoboxs .boxes .box:hover .overlay i {
+  opacity: 1;
+  transition: 0.5s ease-in-out;
+}
+#photoboxs .boxes .box .overlay i {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+#photoboxs .boxes .box img {
+  width: 100%;
+}
+
+#gourment .photo {
+  width: 100%;
+}
+#gourment .photo img {
+  width: 15%;
+}
+#gourment .text {
+  color: grey;
+  width: 42%;
+  margin: auto;
+  margin-top: 25px;
+}
+#gourment .social {
+  width: 30%;
+  margin: auto;
+}
+#gourment .social li a.facebook:hover i {
+  color: whitesmoke;
+  background-color: blue;
+}
+#gourment .social li a.twitter:hover i {
+  color: white;
+  background-color: aqua;
+}
+#gourment .social li a.instagram:hover i {
+  color: white;
+  background-color: #484848;
+}
+#gourment .social li a.youtube:hover i {
+  color: white;
+  background-color: red;
+}
+#gourment .social li a {
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 25px;
+  margin-left: 20px;
+}
+#gourment .social li a i {
+  color: grey;
+  padding: 10px 15px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,68 @@
+#food {
+  width: 100%;
+  height: auto;
+  background-image: url(https://foodtruck.splash.wp.themeforest.createit.pl/images/bg3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#food .boxes .photo1 img {
+  margin-left: 14rem;
+  margin-top: 5rem;
+}
+#food .boxes .photo1 h5 {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 80px;
+  background-color: #9D2824;
+  color: #C87C40;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-left: 48%;
+  margin-top: 27px;
+}
+#food .boxes .photo1 h6 {
+  text-decoration: none;
+  color: white;
+  margin-left: 60%;
+}
+#food .trucker {
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+#food .trucker a {
+  border: 1px solid grey;
+  margin-top: 20px;
+  padding: 15px 28px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #9D2824;
+  color: #C89B7A;
+  border-radius: 1px solid grey;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#cars {
+  width: 100%;
+  height: auto;
+  background-color: #770B0B;
+}
+#cars .boxs {
+  width: 100%;
+  margin-right: 90px;
+  text-align: center;
+}
+#cars .boxs a {
+  width: 50%;
+}
+#cars .boxs h1 {
+  color: white;
+}
+#cars .boxs p {
+  color: white;
+}
+#cars .boxs img {
+  width: 100%;
+  padding-left: 5px;
+}/*# sourceMappingURL=style.css.map */

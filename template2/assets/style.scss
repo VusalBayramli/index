@@ -1,0 +1,872 @@
+#burger {
+    width: 100%;
+    height: 100vh;
+    background: url(https://templates.framework-y.com/gourmet/images/hd-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .burgertext {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        width: 38%;
+        padding: 10px;
+        position: absolute;
+        z-index: 1;
+        margin: 15% 7%;
+
+
+        h1 {
+            color: #FAFAFA;
+            font-size: 50px;
+            font-weight: 600;
+
+
+        }
+
+        h5 {
+            color: #FAFAFA;
+            font-size: 17px;
+            padding-top: 10px;
+
+
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            border: 1px solid #FAFAFA;
+            padding: 5px 20px;
+            display: inline-block;
+            margin-top: 25px;
+            position: relative;
+            z-index: 1;
+
+            &:hover {
+                color: black;
+
+                &::before {
+                    height: 100%;
+                    transition: 0.5s ease-in-out;
+                }
+            }
+
+            &::before {
+                content: "";
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 0%;
+                background-color: white;
+                position: absolute;
+                transition: 0.5s ease-in-out;
+                z-index: -1;
+            }
+        }
+
+    }
+}
+
+#menu {
+    position: relative;
+
+    &::before {
+        content: "";
+        background-color: grey;
+        width: 80%;
+        height: 1px;
+        position: absolute;
+        left: 10%;
+        top: 100%;
+    }
+
+    .boxes {
+        margin-top: 20px;
+        width: 25%;
+        transform: scale(1.0);
+        transition: 0.5s ease-in-out;
+
+        &:hover {
+            transform: scale(1.1);
+            transition: 0.5s ease-in-out;
+        }
+
+        img {
+            width: 100%;
+
+
+        }
+
+        .phototext {
+            width: 80%;
+            margin: auto;
+
+            a {
+                text-decoration: none;
+
+                h1 {
+                    color: grey;
+                    font-size: 20px;
+                    padding-top: 30px;
+                }
+            }
+
+            h5 {
+                color: grey;
+                font-size: 15px;
+                padding-top: 20px;
+                font-weight: 500;
+                padding-bottom: 60px;
+            }
+        }
+    }
+
+}
+
+#week {
+    .boxes {
+        .box1 {
+            .photo {
+                width: 25%;
+                padding-top: 10px;
+                padding-right: 10px;
+            }
+
+            .phototext {
+                width: 70%;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+                h1 {
+                    font-size: 20px;
+                    color: #484848;
+                    padding-top: 10px;
+                }
+
+                h2 {
+                    font-size: 15px;
+                    color: grey;
+                    padding-top: 10px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+    .box2 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        width: 20%;
+
+        p {
+            color: grey;
+            font-style: italic;
+            font-size: 15px;
+        }
+
+        h1 {
+            font-size: 40px;
+            color: #484848;
+        }
+
+        a {
+            text-decoration: none;
+            display: inline-block;
+            color: #484848;
+            border: 1px solid #484848;
+            padding: 5px 10px;
+            margin-top: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            position: relative;
+            transition: 0.5s ease-in-out;
+            z-index: 1;
+
+            &:hover {
+                color: white;
+
+                &::before {
+                    height: 100%;
+                    transition: 0.5s ease-in-out;
+                }
+            }
+
+            &::before {
+                content: "";
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 0;
+                background-color: #484848;
+                position: absolute;
+                z-index: -1;
+
+            }
+        }
+    }
+
+}
+
+#festival {
+    margin-top: 50px;
+    width: 100%;
+    height: 100vh;
+    background: url(https://templates.framework-y.com/gourmet/images/bg-18.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    .container {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        h4 {
+            margin-top: 10%;
+            color: grey;
+            font-style: italic;
+            font-size: 20px;
+            text-align: center;
+
+        }
+
+        h2 {
+            font-size: 40px;
+            font-weight: 600;
+            color: white;
+            text-align: center;
+        }
+
+        .boxes {
+            margin-top: 40px;
+            width: 100%;
+
+            .phototext {
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border: 1px solid pink;
+                background-color: white;
+                width: 100%;
+                margin: auto;
+                padding: 30px;
+
+                h1 {
+                    margin-top: 10px;
+                    color: grey;
+                    font-size: 20px;
+
+                }
+
+                p {
+                    color: grey;
+                    font-size: 15px;
+
+
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #484848;
+                    font-size: 15px;
+
+                }
+            }
+
+
+
+            .boxes1 {
+                width: 33%;
+
+                .photo {
+                    position: relative;
+
+                    &::before {
+                        content: "02 APR,18";
+                        width: 80px;
+                        height: 80px;
+                        background-color: #484848;
+                        left: 70%;
+                        top: 80%;
+                        border: 3px solid white;
+                        position: absolute;
+                        border-radius: 100%;
+                        color: white;
+                        text-align: center;
+                        padding-top: 3px;
+                        font-size: 18px;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+                    }
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+            }
+
+            .boxes2 {
+                width: 33%;
+                position: relative;
+
+                &::before {
+                    content: "21 MAY,18";
+                    width: 75px;
+                    height: 75px;
+                    background-color: #484848;
+                    top: 38%;
+                    left: 70%;
+                    position: absolute;
+                    color: white;
+                    text-align: center;
+                    padding-top: 5px;
+                    font-size: 18px;
+                    border-radius: 100%;
+                    border: 3px solid white;
+
+                }
+
+                .photo {
+                    img {
+                        width: 100%;
+                    }
+                }
+
+
+            }
+
+            .boxes3 {
+                width: 33%;
+                position: relative;
+
+                &::before {
+                    content: "24 JUN,18";
+                    top: 38%;
+                    left: 70%;
+                    border: 3px solid white;
+                    background-color: #484848;
+                    color: white;
+                    text-align: center;
+                    font-size: 18px;
+                    width: 75px;
+                    height: 75px;
+                    position: absolute;
+                    border-radius: 100%;
+                }
+
+                .photo {
+                    img {
+                        width: 100%;
+                    }
+                }
+
+            }
+        }
+
+
+
+
+
+
+
+
+
+    }
+}
+
+#deluxe {
+    .boxes {
+        .box1 {
+            width: 33%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .box2 {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            width: 33%;
+
+            .progress-bar {
+                color: black;
+                background-color: grey;
+            }
+
+            p {
+                color: grey;
+                font-style: italic;
+            }
+
+            h1 {
+                font-size: 38px;
+                color: #484848;
+            }
+
+            h2 {
+                font-size: 13px;
+                color: #484848;
+            }
+
+            h3 {
+                color: #484848;
+                font-size: 13px;
+            }
+        }
+
+        .box3 {
+            p {
+                color: red;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+            }
+        }
+
+        .box4 {
+            width: 33%;
+
+            .progress-bar {
+                color: black;
+                background-color: grey;
+
+            }
+
+            p {
+                color: grey;
+                font-size: 15px;
+                font-style: italic;
+            }
+
+            h1 {
+                color: #484848;
+                font-size: 40px;
+            }
+
+            h2 {
+                color: #484848;
+                font-size: 13px;
+                padding-top: 10px;
+            }
+
+            h3 {
+                color: #484848;
+                font-size: 13px;
+                padding-top: 10px;
+            }
+
+        }
+
+        .box5 {
+            width: 33%;
+            color: grey;
+            font-size: 15px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+
+        h1 {
+            color: #484848;
+            font-size: 40px;
+        }
+
+        .box6 {
+            width: 33%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+#all {
+    .boxes {
+        margin-left: 5px;
+        margin-top: 10px;
+
+        .overlay {
+            width: 70%;
+            margin: auto;
+            top: 35%;
+            left: 7%;
+            position: absolute;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+            p {
+                color: rgb(68, 62, 62);
+                font-size: 18px;
+            }
+
+            h1 {
+                color: white;
+                font-size: 25px;
+            }
+
+            h4 {
+                color: white;
+                font-size: 15px;
+            }
+        }
+
+        .box1 {
+            width: 25%;
+            overflow: hidden;
+            transition: 0.5s ease-in-out;
+            margin-top: 10px;
+            position: relative;
+
+            &:hover {
+                transform: scale(1.1);
+                transition: 0.5s ease-in-out;
+            }
+
+            img {
+                width: 100%;
+                transform: scale(1);
+                vertical-align: middle;
+            }
+        }
+
+        .box2 {
+            width: 25%;
+            overflow: hidden;
+            transition: 0.5s ease-in-out;
+            position: relative;
+
+            &:hover {
+                transform: scale(1.1);
+                transition: 0.5s ease-in-out;
+            }
+
+            img {
+                width: 100%;
+                transform: scale(1);
+                vertical-align: middle;
+
+            }
+        }
+
+        .box3 {
+            width: 25%;
+            overflow: hidden;
+            transition: 0.5s ease-in-out;
+            position: relative;
+
+            &:hover {
+                transition: 0.5s ease-in-out;
+                transform: scale(1.1);
+            }
+
+            img {
+                width: 100%;
+                transform: scale(1);
+                vertical-align: middle;
+
+            }
+        }
+
+        .box4 {
+            width: 25%;
+            overflow: hidden;
+            transition: 0.5s ease-in-out;
+            position: relative;
+
+            &:hover {
+                transition: 0.5s ease-in-out;
+                transform: scale(1.1);
+            }
+
+            img {
+                width: 100%;
+                transform: scale(1);
+                vertical-align: middle;
+            }
+        }
+
+        .box5 {
+            overflow: hidden;
+            width: 25%;
+            transition: 0.5s ease-in-out;
+            position: relative;
+
+            &:hover {
+                transform: scale(1.1);
+                transition: 0.5s ease-in-out;
+            }
+
+            img {
+                width: 100%;
+                transform: scale(1);
+                vertical-align: middle;
+            }
+        }
+
+        .box6 {
+            overflow: hidden;
+            width: 25%;
+            transition: 0.5s ease-in-out;
+            position: relative;
+
+            &:hover {
+                transform: scale(1.1);
+                transition: 0.5s ease-in-out;
+            }
+
+            img {
+                width: 100%;
+                transform: scale(1);
+                vertical-align: middle;
+
+            }
+        }
+
+        .box7 {
+            overflow: hidden;
+            width: 25%;
+            transition: 0.5s ease-in-out;
+            position: relative;
+
+            &:hover {
+                transition: 0.5s ease-in-out;
+                transform: scale(1.1);
+            }
+
+            img {
+                width: 100%;
+                transform: scale(1);
+                vertical-align: middle;
+            }
+        }
+
+        .box8 {
+            overflow: hidden;
+            width: 25%;
+            transition: 0.5s ease-in-out;
+            position: relative;
+
+            &:hover {
+                transition: 0.5s ease-in-out;
+                transform: scale(1.1);
+            }
+
+            img {
+                width: 100%;
+                transform: scale(1);
+                vertical-align: middle;
+            }
+        }
+    }
+
+}
+
+
+#themenu {
+    width: 100%;
+    height: 100vh;
+    background: url(https://templates.framework-y.com/gourmet/images/bg-19.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    .menutext {
+        text-align: center;
+
+        p {
+            color: grey;
+            font-style: italic;
+            font-size: 15px;
+        }
+
+        h1 {
+            color: #484848;
+            font: 25px;
+        }
+    }
+
+    .boxes {
+        width: 100%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        p {
+            color: grey;
+            font-size: 15px;
+
+        }
+
+        h4 {
+            color: grey;
+            font-size: 15px;
+        }
+
+        .box1 {
+            width: 33%;
+        }
+
+        .box2 {
+            width: 33%;
+        }
+
+        .box3 {
+            width: 33%;
+        }
+
+
+    }
+}
+
+
+#photos {
+    .boxes {
+        .text1 {
+            width: 33%;
+            height: 50%;
+            padding-top: 10px;
+            
+
+            p{
+                color: grey;
+                background-color: whitesmoke;
+                padding: 15px 15px;
+            }
+
+            .photo1 {
+                .photobox {
+                   margin: auto;
+                   padding-left: 40px;
+                    img {
+                        width: 100%;
+                        border-radius: 100%;
+                    }
+
+                    h4 {
+                        color: #484848;
+                        font-size: 18px;
+                    }
+                    h5{
+                        color:grey;
+                        font-size: 15px;
+                    }
+                }
+            }
+
+
+
+        }
+    }
+
+}
+
+#photoboxs{
+    .boxes{
+        width: 100%;
+        margin-left: 10px;
+        .box{
+            width: 16%;
+            position: relative;
+            &:hover{
+                .overlay{
+                    i{
+                        opacity: 1;
+                        transition: 0.5s ease-in-out;
+                    }
+                }
+            }
+            .overlay{
+                i{
+                    color: white;
+                    position: absolute;
+                    top: 50%;
+                    left: 45%;
+                    opacity: 0;
+                    transition: 0.5s ease-in-out;
+                    
+                    
+                }
+            }
+            img{
+                width: 100%;
+                
+            }
+        }
+    }
+
+}
+
+#gourment{
+    .photo{
+        width: 100%;
+        img{
+            width: 15%;
+        }
+    }
+    .text{
+        color: grey;
+        width: 42%;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .social{
+        width: 30%;
+        margin: auto;
+        li{
+            a{
+                &.facebook{
+                    &:hover{
+                        i{
+                            color: whitesmoke;
+                            background-color: blue;
+                            
+                        }
+                    }
+                }
+            }
+
+            a{
+                &.twitter{
+                    &:hover{
+                        i{
+                            color: white;
+                        background-color: aqua;
+                        }
+                    }
+                }
+            }
+            a{
+                &.instagram{
+                    &:hover{
+                        i{
+                            color: white;
+                        background-color: #484848;
+                        }
+                    }
+                }
+            }
+
+            a{
+                &.youtube{
+                    &:hover{
+                       i{
+                        color: white;
+                        background-color: red;
+                        
+                       }
+                    }
+                }
+            }
+           
+            
+
+        a{
+            display: inline-block;
+            text-decoration: none;
+            padding-left: 25px;
+            margin-left: 20px;
+            i{
+                color: grey;
+                padding: 10px 15px;
+                
+            }
+        }
+        
+
+    }
+}
+
+}
